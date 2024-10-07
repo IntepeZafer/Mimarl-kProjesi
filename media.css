@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .navbar .hamburger{
+        display: block;
+    }
+    .navbar .links{
+        display: none;
+    }
+    .navbar h1{
+        font-size: 1.25em;
+    }
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery .card{
+        width: 100%;
+    }
+    .why{
+        width: 80%;
+        padding: 1.25rem;
+        margin: 0;
+    }
+    .message{
+        font-size: 2.1875em;
+    }
+}
