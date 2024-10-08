@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -94,12 +99,38 @@ a.active {
   border-radius: .625rem;
   margin: .1875rem;
 }
+.mobileNavbar{
+  position: fixed;
+  top: 0;
+  right: -120px;
+  width: 80px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem;
+  transition: transform 1s ease-in-out;
+}
+.mobileNavbar a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
 .animationBar1{
-  animation: 1s fedBar1 ease-in infinite ;
+  animation: 1s fedBar1 ease-in;
+  animation-fill-mode: forwards;
 }
 .animationBar2{
-  animation: 1s fedBar2 ease-in infinite ;
+  animation: 1s fedBar2 ease-in;
+  animation-fill-mode: forwards;
 }
 .animationBar3{
-  animation: 1s fedBar3 ease-in infinite ;
+  animation: 1s fedBar3 ease-in;
+  animation-fill-mode: forwards;
+}
+.openSidebar{
+  transform: translateX(-120px);
 }

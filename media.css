@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     .navbar .hamburger{
         display: block;
+        z-index: 1;
     }
     .navbar .links{
         display: none;
@@ -28,6 +29,7 @@
 @media (max-width: 992px) {
     .navbar .hamburger{
         display: block;
+        z-index: 1;
     }
     .navbar .links{
         display: none;

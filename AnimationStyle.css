@@ -3,7 +3,7 @@
         transform: rotate(0);
     }
     to{
-        transform: rotate(45deg) translate(4px , 7px);
+        transform: rotate(45deg) translate(4px , 6px);
     }
 }
 @keyframes fedBar2{
@@ -19,6 +19,6 @@
         transform: rotate(0);
     }
     to{
-        transform: rotate(-45deg) translate(4px , -7px);
+        transform: rotate(-45deg) translate(4px , -6px);
     }
 }
