@@ -94,3 +94,12 @@ a.active {
   border-radius: .625rem;
   margin: .1875rem;
 }
+.animationBar1{
+  animation: 1s fedBar1 ease-in infinite ;
+}
+.animationBar2{
+  animation: 1s fedBar2 ease-in infinite ;
+}
+.animationBar3{
+  animation: 1s fedBar3 ease-in infinite ;
+}

@@ -1,0 +1,24 @@
+@keyframes fedBar1{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(45deg) translate(4px , 7px);
+    }
+}
+@keyframes fedBar2{
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(0);
+    }
+}
+@keyframes fedBar3{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-45deg) translate(4px , -7px);
+    }
+}
